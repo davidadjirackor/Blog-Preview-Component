@@ -1,0 +1,72 @@
+*,*:before, *:after{
+  box-sizing: border-size;
+}
+html{
+  box-sizing: inherit;
+  
+}
+
+body{
+  margin: 0, auto; 
+  background-color:hsl(47, 88%, 63%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.main-card{
+  border: 1px solid black;
+  background-color: white;
+  max-width: 400px;
+  padding: 20px;
+  margin: 100px auto;
+  border-radius: 20px;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  box-shadow: 10px 10px;
+  cursor: pointer;
+  
+}
+
+.top-card img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.writer-card{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.writer-card img{
+  width: 30px;
+  height: 30px;
+  border-radius: 20px; 
+}
+
+h3{
+  background-color: hsl(47, 88%, 63%);
+  padding: 3px 4px;
+  width:20%;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: left;
+   padding-left: 8px !important;
+}
+
+.date {
+  font-weight: 400;
+}
+
+h1{
+  font-size: 25px;
+}
+
+.main-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0;
+}
+
